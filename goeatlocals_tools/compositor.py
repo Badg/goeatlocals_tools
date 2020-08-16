@@ -134,7 +134,7 @@ async def _run_as_asyncio(conn_kwargs):
                             RETURNING place_id;
                             '''.format(src_table=table),
                             record['osm_id'],
-                            record['name'],
+                            record['name'].strip(),
                             display_class,
                             status,
                             address.street_number,
