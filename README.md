@@ -1,17 +1,16 @@
 # Quick disclaimer
 
 If you're reading this, you happened to stumble upon (or, hopefully, were linked to)
-a repository in an **extremely** work-in-progress state, during a brief window in which
-it was available publicly, for reasons I'm not going to publicly state on github.
+a repository in an **extremely** work-in-progress state, something that I never really
+intended to upload publicly. It's part exploration, part prototyping, part creation for
+creation's sake. In other words, it's a personal project! That context colors pretty much
+every decision made here.
 
 Please note: unless explicitly commented otherwise, I wrote all of this code, it
 has no license, and all rights are reserved. It is probably
 broken, it is littered with to-do's, and it was never intended to see the light of
-day in this state. But again, *reasons*.
+day in this state.
 
-Inside ``.taetime`` you'll find some infra-as-code terraform files. These are invoked
-by my own (custom) dev environment, prepopulating a bunch of stuff to avoid boilerplate.
-The rest of the source is approximately what you'd expect, though the packaging system
-for python code is a bit opaque, which also has to do with my dev environment. Rest
-assured I have both a package spec and a lockfile, they just may or may not show up in
-the repo.
+Inside ``.taetime`` you'll find some infra-as-code terraform files. Unfortunately,
+these won't be able to run outside of my development environment, as they use some
+non-public scripts to wrap boilerplate.
